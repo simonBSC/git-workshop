@@ -1,0 +1,1 @@
+Das ist zum Testen für SmartGit
