@@ -1,17 +1,19 @@
- name: CI
+name: CI
 
- on:
-   push:
-     branches:
-       - main
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '20 13 * * *'  # Winter
 
- jobs:
-   build:
-     runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-     steps:
-       - name: Get Your Code
-         uses: actions/checkout@v6
+    steps:
+      - name: Get Your Code
+        uses: actions/checkout@v6
 
-       - name: Say Hello to the Worldddd
-         run: echo "Hello, World!"
+      - name: Say Hello to the Worldddd
+        run: echo "Hello, World!"
