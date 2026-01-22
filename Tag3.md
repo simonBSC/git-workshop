@@ -166,7 +166,7 @@ Ihr könnt zusammen arbeiten.
 
 ### 3.2 Wie war es?
 
-Wenn Ihr den Git-Workshop für die Azubis im nächsten Jahr geben würdet – was würdet Ihr anders machen? Reihenfolge, Inhalte, mehr oder weniger von irgendwas?
+Wenn Ihr den Git-Workshop für die Azubis im nächsten Jahr geben würdet – was würdet Ihr anders machen? Reihenfolge, Inhalte, mehr oder weniger von irgendwas? [Gerne mehr Aufgaben die von einem der Leiter am Screen bearbeitet werden] [ 
 
 
 **Aufgaben:**
