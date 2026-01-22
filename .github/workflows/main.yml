@@ -11,10 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Nachricht für Main Branch
-        if: github.ref == 'refs/heads/main'
-        run: echo "Das ist der MAIN Branch!"
+      - name: Get Your Code
+        uses: actions/checkout@v2
 
-      - name: Nachricht für Second Branch
+      - name: Say Hello to Main Branch
+        if: github.ref == 'refs/heads/main'
+        run: echo "Hello from MAIN Branch!"
+
+      - name: Say Hello to Second Branch
         if: github.ref == 'refs/heads/second'
-        run: echo "Das ist der Second Branch!"
+        run: echo "Hello from SECOND Branch!"
