@@ -1,17 +1,20 @@
- name: CI
+name: CI
 
- on:
-   push:
-     branches:
-       - main
+on:
+  push:
+    branches:
+      - main
+      - second
 
- jobs:
-   build:
-     runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-     steps:
-       - name: Get Your Code
-         uses: actions/checkout@v2
+    steps:
+      - name: Nachricht für Main Branch
+        if: github.ref == 'refs/heads/main'
+        run: echo "Das ist der MAIN Branch!"
 
-       - name: Say Hello to the World
-         run: echo "Hello, World!"
+      - name: Nachricht für Dev Branch
+        if: github.ref == 'refs/heads/dev'
+        run: echo "Das ist der DEV Branch!"
