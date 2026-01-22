@@ -55,7 +55,7 @@ Git ist ein Versionsmanagementsystem, entwickelt von Linus Torvalds 2005 für di
 -   Git ist nicht dasselbe wie GitHub: GitHub ist eine Plattform für die Zusammenarbeit mit Git-Repositories, aber Git selbst ist unabhängig davon nutzbar.
 -   Git ist nicht nur für Teams: Auch Einzelpersonen können von den Vorteilen der Versionskontrolle profitieren.
 
-## Teil 2: Einrichten von Git
+## Teil 2: Einrichten von Git [Einrichtung war zu komplex, um das mit so wenig Punkten zu beschreiben]
 Git ist erstmal nur ein Softwarepaket. Du kannst es benutzen über:
 - die Command Line
 - die Integration in Deine IDE
@@ -68,7 +68,7 @@ Lade Git von der [offiziellen Website](https://git-scm.com/) oder verwende einen
 -   Linux: Installation über Paketmanager (z. B. apt für Ubuntu, yum für Fedora).
 
 
-### 2.2 Konfiguration von Git
+### 2.2 Konfiguration von Git [das war gut und hilfreich]
 Konfigurieren von Benutzername und E-Mail-Adresse:
 -   `git config --global user.name "Your Name"`
 -   `git config --global user.email "your.email@example.com"`
@@ -83,7 +83,7 @@ Konfigurieren von Standardeditoren und anderen Optionen:
 
 
 > [!TIP]
-> **Einrichten von Git in VScode** 
+> **Einrichten von Git in VScode** [wenn man noch nie mit git und vs code gearbeitet hat, sind die anweisungen zu schwammig, um ihnen folgen zu können]
 > 
 > Wenn Du in Vscode kein Source Control Menu siehst, gehe in die Settings, enable git und überprüfe, ob der Path zu git korrekt ist.
 
@@ -95,7 +95,7 @@ Konfigurieren von Standardeditoren und anderen Optionen:
   3. Was kann man dort noch konfigurieren? → [Cheat Sheet Git-Config](https://git-scm.com/book/de/v2/Erste-Schritte-Git-Basis-Konfiguration)
 
 
-### 2.3 Erste Schritte mit Git
+### 2.3 Erste Schritte mit Git [hilfreich, Verbesserungen: ein Repo für den ganzen Workshop, um den Überblick zu bewahren]
 In Git arbeiten wir mit Repositories. Ein Git-Repository ist nichts anderes als ein Ordner, den Du mit Git verwaltest. Darin können alle Arten von Dateien sein, Bilder und ihre Versionen, Deine Abschlussarbeit oder ein Softwareprojekt. 
 
 Initialisierung eines Ordners als Git-Repository:
@@ -271,7 +271,7 @@ Eine `.gitignore`-Datei ist eine einfache Datei in einem Git-Repository, die fes
 
 → [Cheat Sheet .gitignore](https://github.com/kenmueller/gitignore)
 
-### 4.4 Token
+### 4.4 Token 
 Um sich an nicht-öffentlichen Repos zu authentifizieren, sollte ein Token verwendet werden.
 Anders als ein User/PW erlangt jemand bei einem Leak des Token keine Kontrolle über den Git Account.
 Ein Token in z.B. Github erstellt man über Einstellungen->Developer Settings->Personal Access Token. Dort wählt man aus, welche Rechte bei einem Zugriff vorliegen.
