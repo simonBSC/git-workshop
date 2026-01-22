@@ -23,7 +23,7 @@
 
 
 ### 1.2 Squashen
-Wenn Ihr Euch die Commit-History mit `git log` 
+Wenn Ihr Euch die Commit-History mit `git log` [haben wir nicht verstanden bzw undeutlich erklärt]
 
 ### 1.3 Rebasen
 rebase vs merge
@@ -32,11 +32,11 @@ rebase vs merge
 ## Teil 2: Recap Git
 
 ### 2.1 Git Video
-:arrow_forward: Video [Git happens](https://www.youtube.com/watch?v=yCh6TSLIQBQ) (37 Minuten) 
+:arrow_forward: Video [Git happens](https://www.youtube.com/watch?v=yCh6TSLIQBQ) (37 Minuten) [Eine Erläuterung, worum es genau in dem Video geht oder eine Nachbesprechung danach wäre hilfreich gewesen]
 
 ### 2.2 Git GUI
 Hausaufgaben vergleichen:
-Welche GUI für Git gefällt Dir und warum? Zeig her.
+Welche GUI für Git gefällt Dir und warum? Zeig her. [Wir hätten es besser gefunden, wenn uns vorher eine Git GUI gezeigt worden wäre, anstatt uns das selber beizubringen]
 
 ### 2.3 Git-Quiz
 https://www.w3schools.com/quiztest/quiztest.asp?qtest=GIT
@@ -60,11 +60,11 @@ Windows Terminal ist eine Anwendung von Microsoft, von der PowerShell, CMD und a
 Hier kann man unter anderem direkt die Schriftart ändern und hat die Möglichkeit die Farben anzupassen und ein Hintergrundbild einzufügen.]
 
 ### 3.2 Git Übungen auf der Shell
-https://lerneprogrammieren.de/git/
+https://lerneprogrammieren.de/git/ [diese Befehle hätten wir lieber am Anfang gelernt oder an Tag 1]
 
 
 
-## Teil 4: SSH-Key erstellen und in Deinem Github-Account hinterlegen
+## Teil 4: SSH-Key erstellen und in Deinem Github-Account hinterlegen [Ein Tutorial zum Erstellen dieses Keys hätten wir sehr begrüßt.]
 
 ### 4.1 Vorteile der Nutzung von GitHub über SSH
 
