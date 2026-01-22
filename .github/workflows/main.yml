@@ -15,6 +15,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: echo "Das ist der MAIN Branch!"
 
-      - name: Nachricht für Dev Branch
+      - name: Nachricht für Second Branch
         if: github.ref == 'refs/heads/second'
-        run: echo "Das ist der DEV Branch!"
+        run: echo "Das ist der Second Branch!"
