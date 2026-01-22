@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '10 13 * * *'  # Winter
+    - cron: '25 12 * * *'  # 14:22 deutsche Zeit (Winter)
 
 jobs:
   build:
